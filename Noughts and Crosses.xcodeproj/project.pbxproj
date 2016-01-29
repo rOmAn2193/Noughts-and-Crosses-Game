@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4D6F9011C5B3CB800CB4197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D6F9001C5B3CB800CB4197 /* AppDelegate.swift */; };
+		E4D6F9031C5B3CB800CB4197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D6F9021C5B3CB800CB4197 /* ViewController.swift */; };
+		E4D6F9061C5B3CB800CB4197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D6F9041C5B3CB800CB4197 /* Main.storyboard */; };
+		E4D6F9081C5B3CB800CB4197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D6F9071C5B3CB800CB4197 /* Assets.xcassets */; };
+		E4D6F90B1C5B3CB800CB4197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D6F9091C5B3CB800CB4197 /* LaunchScreen.storyboard */; };
+		E4D6F9161C5B3CB800CB4197 /* Noughts_and_CrossesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D6F9151C5B3CB800CB4197 /* Noughts_and_CrossesTests.swift */; };
+		E4D6F9211C5B3CB800CB4197 /* Noughts_and_CrossesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D6F9201C5B3CB800CB4197 /* Noughts_and_CrossesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4D6F9121C5B3CB800CB4197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4D6F8F51C5B3CB800CB4197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4D6F8FC1C5B3CB800CB4197;
+			remoteInfo = "Noughts and Crosses";
+		};
+		E4D6F91D1C5B3CB800CB4197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4D6F8F51C5B3CB800CB4197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4D6F8FC1C5B3CB800CB4197;
+			remoteInfo = "Noughts and Crosses";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4D6F8FD1C5B3CB800CB4197 /* Noughts and Crosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noughts and Crosses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D6F9001C5B3CB800CB4197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4D6F9021C5B3CB800CB4197 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4D6F9051C5B3CB800CB4197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4D6F9071C5B3CB800CB4197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4D6F90A1C5B3CB800CB4197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4D6F90C1C5B3CB800CB4197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4D6F9111C5B3CB800CB4197 /* Noughts and CrossesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noughts and CrossesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D6F9151C5B3CB800CB4197 /* Noughts_and_CrossesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noughts_and_CrossesTests.swift; sourceTree = "<group>"; };
+		E4D6F9171C5B3CB800CB4197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4D6F91C1C5B3CB800CB4197 /* Noughts and CrossesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noughts and CrossesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D6F9201C5B3CB800CB4197 /* Noughts_and_CrossesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noughts_and_CrossesUITests.swift; sourceTree = "<group>"; };
+		E4D6F9221C5B3CB800CB4197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4D6F8FA1C5B3CB800CB4197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D6F90E1C5B3CB800CB4197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D6F9191C5B3CB800CB4197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4D6F8F41C5B3CB800CB4197 = {
+			isa = PBXGroup;
+			children = (
+				E4D6F8FF1C5B3CB800CB4197 /* Noughts and Crosses */,
+				E4D6F9141C5B3CB800CB4197 /* Noughts and CrossesTests */,
+				E4D6F91F1C5B3CB800CB4197 /* Noughts and CrossesUITests */,
+				E4D6F8FE1C5B3CB800CB4197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4D6F8FE1C5B3CB800CB4197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4D6F8FD1C5B3CB800CB4197 /* Noughts and Crosses.app */,
+				E4D6F9111C5B3CB800CB4197 /* Noughts and CrossesTests.xctest */,
+				E4D6F91C1C5B3CB800CB4197 /* Noughts and CrossesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4D6F8FF1C5B3CB800CB4197 /* Noughts and Crosses */ = {
+			isa = PBXGroup;
+			children = (
+				E4D6F9001C5B3CB800CB4197 /* AppDelegate.swift */,
+				E4D6F9021C5B3CB800CB4197 /* ViewController.swift */,
+				E4D6F9041C5B3CB800CB4197 /* Main.storyboard */,
+				E4D6F9071C5B3CB800CB4197 /* Assets.xcassets */,
+				E4D6F9091C5B3CB800CB4197 /* LaunchScreen.storyboard */,
+				E4D6F90C1C5B3CB800CB4197 /* Info.plist */,
+			);
+			path = "Noughts and Crosses";
+			sourceTree = "<group>";
+		};
+		E4D6F9141C5B3CB800CB4197 /* Noughts and CrossesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4D6F9151C5B3CB800CB4197 /* Noughts_and_CrossesTests.swift */,
+				E4D6F9171C5B3CB800CB4197 /* Info.plist */,
+			);
+			path = "Noughts and CrossesTests";
+			sourceTree = "<group>";
+		};
+		E4D6F91F1C5B3CB800CB4197 /* Noughts and CrossesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4D6F9201C5B3CB800CB4197 /* Noughts_and_CrossesUITests.swift */,
+				E4D6F9221C5B3CB800CB4197 /* Info.plist */,
+			);
+			path = "Noughts and CrossesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4D6F8FC1C5B3CB800CB4197 /* Noughts and Crosses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D6F9251C5B3CB800CB4197 /* Build configuration list for PBXNativeTarget "Noughts and Crosses" */;
+			buildPhases = (
+				E4D6F8F91C5B3CB800CB4197 /* Sources */,
+				E4D6F8FA1C5B3CB800CB4197 /* Frameworks */,
+				E4D6F8FB1C5B3CB800CB4197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noughts and Crosses";
+			productName = "Noughts and Crosses";
+			productReference = E4D6F8FD1C5B3CB800CB4197 /* Noughts and Crosses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4D6F9101C5B3CB800CB4197 /* Noughts and CrossesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D6F9281C5B3CB800CB4197 /* Build configuration list for PBXNativeTarget "Noughts and CrossesTests" */;
+			buildPhases = (
+				E4D6F90D1C5B3CB800CB4197 /* Sources */,
+				E4D6F90E1C5B3CB800CB4197 /* Frameworks */,
+				E4D6F90F1C5B3CB800CB4197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4D6F9131C5B3CB800CB4197 /* PBXTargetDependency */,
+			);
+			name = "Noughts and CrossesTests";
+			productName = "Noughts and CrossesTests";
+			productReference = E4D6F9111C5B3CB800CB4197 /* Noughts and CrossesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4D6F91B1C5B3CB800CB4197 /* Noughts and CrossesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D6F92B1C5B3CB800CB4197 /* Build configuration list for PBXNativeTarget "Noughts and CrossesUITests" */;
+			buildPhases = (
+				E4D6F9181C5B3CB800CB4197 /* Sources */,
+				E4D6F9191C5B3CB800CB4197 /* Frameworks */,
+				E4D6F91A1C5B3CB800CB4197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4D6F91E1C5B3CB800CB4197 /* PBXTargetDependency */,
+			);
+			name = "Noughts and CrossesUITests";
+			productName = "Noughts and CrossesUITests";
+			productReference = E4D6F91C1C5B3CB800CB4197 /* Noughts and CrossesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4D6F8F51C5B3CB800CB4197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Roman Puzey";
+				TargetAttributes = {
+					E4D6F8FC1C5B3CB800CB4197 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = URRFBAQJ2L;
+					};
+					E4D6F9101C5B3CB800CB4197 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = URRFBAQJ2L;
+						TestTargetID = E4D6F8FC1C5B3CB800CB4197;
+					};
+					E4D6F91B1C5B3CB800CB4197 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = URRFBAQJ2L;
+						TestTargetID = E4D6F8FC1C5B3CB800CB4197;
+					};
+				};
+			};
+			buildConfigurationList = E4D6F8F81C5B3CB800CB4197 /* Build configuration list for PBXProject "Noughts and Crosses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4D6F8F41C5B3CB800CB4197;
+			productRefGroup = E4D6F8FE1C5B3CB800CB4197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4D6F8FC1C5B3CB800CB4197 /* Noughts and Crosses */,
+				E4D6F9101C5B3CB800CB4197 /* Noughts and CrossesTests */,
+				E4D6F91B1C5B3CB800CB4197 /* Noughts and CrossesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4D6F8FB1C5B3CB800CB4197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D6F90B1C5B3CB800CB4197 /* LaunchScreen.storyboard in Resources */,
+				E4D6F9081C5B3CB800CB4197 /* Assets.xcassets in Resources */,
+				E4D6F9061C5B3CB800CB4197 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D6F90F1C5B3CB800CB4197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D6F91A1C5B3CB800CB4197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4D6F8F91C5B3CB800CB4197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D6F9031C5B3CB800CB4197 /* ViewController.swift in Sources */,
+				E4D6F9011C5B3CB800CB4197 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D6F90D1C5B3CB800CB4197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D6F9161C5B3CB800CB4197 /* Noughts_and_CrossesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D6F9181C5B3CB800CB4197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D6F9211C5B3CB800CB4197 /* Noughts_and_CrossesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4D6F9131C5B3CB800CB4197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4D6F8FC1C5B3CB800CB4197 /* Noughts and Crosses */;
+			targetProxy = E4D6F9121C5B3CB800CB4197 /* PBXContainerItemProxy */;
+		};
+		E4D6F91E1C5B3CB800CB4197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4D6F8FC1C5B3CB800CB4197 /* Noughts and Crosses */;
+			targetProxy = E4D6F91D1C5B3CB800CB4197 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4D6F9041C5B3CB800CB4197 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4D6F9051C5B3CB800CB4197 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4D6F9091C5B3CB800CB4197 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4D6F90A1C5B3CB800CB4197 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4D6F9231C5B3CB800CB4197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4D6F9241C5B3CB800CB4197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4D6F9261C5B3CB800CB4197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Noughts and Crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.Roman.Puzey.Noughts-and-Crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4D6F9271C5B3CB800CB4197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Noughts and Crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.Roman.Puzey.Noughts-and-Crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E4D6F9291C5B3CB800CB4197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Noughts and CrossesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.Roman.Puzey.Noughts-and-CrossesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noughts and Crosses.app/Noughts and Crosses";
+			};
+			name = Debug;
+		};
+		E4D6F92A1C5B3CB800CB4197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Noughts and CrossesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.Roman.Puzey.Noughts-and-CrossesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noughts and Crosses.app/Noughts and Crosses";
+			};
+			name = Release;
+		};
+		E4D6F92C1C5B3CB800CB4197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Noughts and CrossesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.Roman.Puzey.Noughts-and-CrossesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Noughts and Crosses";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E4D6F92D1C5B3CB800CB4197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Noughts and CrossesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.Roman.Puzey.Noughts-and-CrossesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Noughts and Crosses";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4D6F8F81C5B3CB800CB4197 /* Build configuration list for PBXProject "Noughts and Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D6F9231C5B3CB800CB4197 /* Debug */,
+				E4D6F9241C5B3CB800CB4197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D6F9251C5B3CB800CB4197 /* Build configuration list for PBXNativeTarget "Noughts and Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D6F9261C5B3CB800CB4197 /* Debug */,
+				E4D6F9271C5B3CB800CB4197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4D6F9281C5B3CB800CB4197 /* Build configuration list for PBXNativeTarget "Noughts and CrossesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D6F9291C5B3CB800CB4197 /* Debug */,
+				E4D6F92A1C5B3CB800CB4197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4D6F92B1C5B3CB800CB4197 /* Build configuration list for PBXNativeTarget "Noughts and CrossesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D6F92C1C5B3CB800CB4197 /* Debug */,
+				E4D6F92D1C5B3CB800CB4197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4D6F8F51C5B3CB800CB4197 /* Project object */;
+}
